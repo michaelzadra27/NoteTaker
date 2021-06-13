@@ -12,7 +12,8 @@ const apiRouter = require("./routes/apicall")
 // Sets up the Express App
 
 const app = express();
-const PORT = 3000;
+var PORT = process.env.PORT || 3001;
+  
 
 
 
