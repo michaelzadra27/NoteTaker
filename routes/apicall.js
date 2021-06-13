@@ -11,7 +11,8 @@ dataRout.get("/api/notes", function (req, res) {
             return;
         }
         console.log(data);
-        var svData = []
+        var svData = [];
+        svData = JSON.parse(data)
         return res.json(svData)
     })
 });

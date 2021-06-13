@@ -68,3 +68,32 @@ html, body {
   padding: 20px;
   cursor: pointer;
 }
+
+.navbar {
+  background-color: darkblue;
+  color: darkgray;
+}
+
+.textColor {
+  color:white;
+}
+
+.noteColor{
+  background-color: slategray;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
